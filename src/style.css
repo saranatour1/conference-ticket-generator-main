@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .writing-vertical-rl {
+      writing-mode: vertical-rl;
+    }
+    .text-upright {
+      text-orientation: upright;
+    }
+  }
