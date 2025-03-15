@@ -53,12 +53,12 @@ module.exports = {
         "inconsolata":['Inconsolata Variable', 'monospace']
       },
       backgroundImage:{
-        desktop:"url('./src/assets/background-desktop.png')",
-        tablet:"url('./src/assets/background-tablet.png')",
-        mobile:"url('./src/assets/background-mobile.png')",
-        "top-squiggly":"url('./src/assets/pattern-squiggly-line-top.svg')",
-        "bottom-squiggly":"url('./src/assets/pattern-squiggly-line-bottom.svg')",
-        "lines":"url('./src/assets/pattern-lines.svg')"
+        desktop:"url('/src/assets/background-desktop.png')",
+        tablet:"url('/src/assets/background-tablet.png')",
+        mobile:"url('/src/assets/background-mobile.png')",
+        "top-squiggly":"url('/src/assets/pattern-squiggly-line-top.svg')",
+        "bottom-squiggly":"url('/src/assets/pattern-squiggly-line-bottom.svg')",
+        "lines":"url('/src/assets/pattern-lines.svg')"
       }
     },
   },
