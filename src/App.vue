@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { reactive, ref } from 'vue';
 import ConferenceForm from './components/index.ts'
-// Supports weights 200-900
-import '@fontsource-variable/inconsolata';
 import SubmittedTicket from './components/SubmittedTicket.vue';
 type Values = {
     avatar: File | null;
